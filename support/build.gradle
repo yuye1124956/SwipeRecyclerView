@@ -1,4 +1,8 @@
 apply plugin: rootProject.ext.plugins.library
+//启用Jitpack 插件
+apply plugin: 'com.github.dcendents.android-maven'
+//设置Jitpack发布的Group
+group = 'com.github.yuye1124956'
 
 android {
 
